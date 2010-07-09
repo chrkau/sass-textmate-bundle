@@ -45,6 +45,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>'.+'|(?&lt;=url\().+(?=\))</string>
+			<key>name</key>
+			<string>string.quoted.single.sass</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\.[a-zA-Z0-9_-]+</string>
 			<key>name</key>
 			<string>entity.other.attribute-name.class.sass</string>
@@ -102,18 +108,16 @@
 			<string>keyword.other.unit.sass</string>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>url</string>
-			<key>end</key>
-			<string>\)</string>
+			<key>match</key>
+			<string>&amp;</string>
 			<key>name</key>
 			<string>keyword.control.untitled</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>&amp;</string>
+			<string>\s[\+\-\/\*]\s</string>
 			<key>name</key>
-			<string>keyword.control.untitled</string>
+			<string>keyword.operator.untitled</string>
 		</dict>
 		<dict>
 			<key>match</key>
