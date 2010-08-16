@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@extend </string>
+	<string>@extend .</string>
 	<key>name</key>
 	<string>@extend</string>
 	<key>scope</key>
