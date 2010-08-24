@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>border-left-color = !${2:sass_color}
-</string>
+	<string>darken(${1:\$color}, ${2:pct})</string>
 	<key>name</key>
-	<string>border-left-color: sass</string>
+	<string>darken</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
-	<string>blc</string>
+	<string>dark</string>
 	<key>uuid</key>
-	<string>7155A4ED-EDFF-4417-BDDE-0E628BAD63CE</string>
+	<string>3741EC47-5EF0-48B2-B952-8CABD18F32A0</string>
 </dict>
 </plist>
